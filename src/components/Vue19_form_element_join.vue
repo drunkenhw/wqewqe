@@ -62,7 +62,7 @@
         <button ref="btnJoin" @click.prevent="join" class="btn-margin">
           가입
         </button>
-        <button @click.prevent="cancel">취소</button>
+        <button @click.prevent="cancel">취소a</button>
       </div>
     </fieldset>
   </form>
