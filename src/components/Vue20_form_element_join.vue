@@ -42,19 +42,19 @@
             :id="item"
             :value="item"
             v-model="gender"
-            ref="gender"
+            :ref="item"
           />
         </label>
       </div>
       <div>
         <label for="mobile" class="title">Mobile</label>
         <select v-model="mobile" id="mobile">
-          <option :value="item" v-for="item in mobileList" :key="item" required>
+          <option :value="item" v-for="item in mobileList" :key="item">
             {{ item }}
           </option>
         </select>
-        <input type="text" name="mobile1" id="id" class="m1" ref="mobile1" />-
-        <input type="text" name="mobile2" id="id" class="m1" ref="mobile2" />
+        <input type="text" name="mobile1" id="mobile1" class="m1" ref="mobile1" />-
+        <input type="text" name="mobile2" id="mobile2" class="m1" ref="mobile2" />
         <input type="hidden" name="mobile" ref="mobile" />
       </div>
       <div>
@@ -83,9 +83,9 @@ export default {
   methods: {
     cancel() {
     const frm = this.$refs.frm
-    const radioF= this.$refs.gender
+   
     frm.reset()
-    radioF.value
+    document.querySelector("#여").checked=true
     
       
     },

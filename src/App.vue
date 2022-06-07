@@ -29,8 +29,15 @@ import Exercise14 from "./components/Vue14_radio.vue"
 import Exercise15 from "./components/Vue15_select.vue"
 import Exercise16 from "./components/Vue13_checkbox2.vue"
 import Exercise17 from "./components/Vue17_radio_binding.vue"
-import Exercise18 from "./components/Vue18_select_binding.vue"
-import Exercise19 from "./components/Vue19_form_element_join.vue"
+import Exercise18 from "./components/Vue18_select_binding_Options.vue"
+import Exercise19 from "./components/Vue19_select_binding_Composition.vue"
+import Exercise20 from "./components/Vue20_form_element_join.vue"
+import Exercise21 from "./components/Vue21_O_C_ref_reactive.vue"
+import Exercise22 from "./components/Vue22_scriptsetup.vue"
+import Exercise23 from "./components/Vue23_vpre.vue"
+import Exercise24 from "./components/Vue24_computed.vue"
+import Exercise25 from "./components/Vue25_watch_effect.vue"
+import Exercise26 from "./components/Vue26_component_create.vue"
 
 import Footer from "./components/Vue_Footer.vue"
 
@@ -40,9 +47,10 @@ export default {
     Exercise01, Exercise02,Exercise03, Exercise04,Exercise05, Exercise06,
     Exercise07, Exercise08,Exercise09, Exercise10,Exercise11, Exercise12,
     Exercise13, Exercise14, Exercise15,Exercise16,Exercise17,Exercise18,
-    Exercise19,
+    Exercise19,Exercise20,Exercise21,Exercise22,Exercise23,Exercise24,Exercise25
+    ,Exercise26
 
-    Footer
+    ,Footer
   },
   data(){
     return{
@@ -50,7 +58,8 @@ export default {
         Exercise01, Exercise02,Exercise03, Exercise04,Exercise05, Exercise06,
         Exercise07, Exercise08,Exercise09, Exercise10,Exercise11, Exercise12,
         Exercise13, Exercise14,Exercise15,Exercise16,Exercise17,Exercise18,
-        Exercise19
+        Exercise19,Exercise20,Exercise21,Exercise22,Exercise23,Exercise24,
+        Exercise25,Exercise26
       ],
       classCard:"card",
       classFooter:"footer",
